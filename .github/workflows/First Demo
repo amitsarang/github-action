@@ -7,7 +7,7 @@ jobs:
     runs-on: ubantu-latest
     steps: 
         - name: Checkout Code
-          uses: actions/checkout@4
+          uses: actions/checkout@v4
 
         - name: Build
           run: echo 'Build Code'
