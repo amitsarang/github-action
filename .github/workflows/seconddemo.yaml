@@ -1,0 +1,14 @@
+name: Secound Demo
+
+on: 
+  workflow_dispatch:
+  
+jobs:
+  build:
+    runs-on: ubantu-latest
+    steps: 
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Build
+        run: echo "Build Code"
